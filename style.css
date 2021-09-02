@@ -1,0 +1,61 @@
+:root{
+    --bg-color:olive;
+}
+
+.cur{
+    cursor: grab;
+}
+#p1{
+    color: aquamarine;
+}
+#d1{
+    background-color: crimson;
+    border-style: dashed;
+    border-color: darkgreen;
+    border-radius: 20%;
+    padding-left: 700px;
+    margin-bottom: 20px;
+}
+#d2{
+    background-color: darksalmon;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    resize: both;
+}
+#p2{
+    font-size: 30px;
+    color:lawngreen;
+    font-style: oblique;
+    font-weight: 800;
+}
+#a1:link{
+    color: chartreuse;
+}
+#a1:visited{
+    color: darkgoldenrod;
+}
+#a1:hover{
+    color: darkgreen;
+    font-size: x-large;
+    font-weight: bolder;
+    font-display: initial;
+}
+#a1:active{
+    color: darkred;
+}
+#rr:hover{
+    opacity: 50%;
+}
+#d3{
+    font-size: 30px;
+    text-align: center;
+    color: midnightblue;
+    background-color: var(--bg-color);
+    width: calc(100% - 100px);
+    padding: 20px;
+    border: 20px solid black;
+    margin: 20px;
+    box-sizing: border-box;
+}
