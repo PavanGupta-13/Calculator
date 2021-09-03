@@ -1,6 +1,6 @@
 import React,{useEffect, useState} from 'react'
 
-const Disp = ({val=0}) => {
+const Disp = ({val}) => {
 
 
     return (
