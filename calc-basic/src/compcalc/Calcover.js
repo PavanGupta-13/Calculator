@@ -19,8 +19,8 @@ const Calcover = () => {
 
         <div style={{display:"grid"}}>
             <div>
-            <button style={{ marginRight:"20px",borderRadius:"50%",border:"none", height:"80px", width:"80px", fontSize:"2em"}}>AC</button>
-            <button style={{ marginRight:"20px",borderRadius:"50%",border:"none", height:"80px", width:"80px", fontSize:"2em"}}>=</button>
+            <button style={{ marginRight:"20px",borderRadius:"50%",border:"none", height:"80px", width:"80px", fontSize:"2em"}} onClick={()=>setDisp('')}>AC</button>
+            <button style={{ marginRight:"20px",borderRadius:"50%",border:"none", height:"80px", width:"80px", fontSize:"2em"}} onClick={()=>setDisp('=')}>=</button>
             <button style={{ marginRight:"20px",borderRadius:"50%",border:"none", height:"80px", width:"80px", fontSize:"2em"}} onClick={()=>setDisp('%')}>%</button>
             <button style={{ marginRight:"20px",borderRadius:"50%",border:"none", height:"80px", width:"80px", fontSize:"2em", background:"rgb(255, 173, 22)", color:"white"}} onClick={()=>setDisp('/')}>&#247;</button>
             </div>
