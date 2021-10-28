@@ -1,0 +1,51 @@
+@mixin DivFlex($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+.displayDiv{
+    @include DivFlex(row)
+}
+
+.todolist{
+    max-width: 50%;
+    min-width: 516px;
+}
+
+.userDet{
+    margin-left: 8rem;
+    max-height: 10%;
+    min-width: 330px;
+}
+
+@media screen and (max-width : 1077px) {
+    .userDet{
+        margin-left: 1rem;
+        max-height: 10%;
+        min-width: 330px;
+    }
+}
+
+@media screen and (max-width : 959px){
+    .displayDiv{
+        @include DivFlex(column)
+    }
+    .todolist{
+        max-width: 50%;
+        min-width: 516px;
+        height: 820px;
+        z-index: 1;
+        position: absolute;
+    }
+    .userDet{
+        margin: 3rem;
+        max-height: 10%;
+        max-width:40%;
+        min-width: 330px;
+        z-index: 2;
+        position: fixed;
+    }
+    .opace{
+        opacity: 0.5;
+    }    
+}
